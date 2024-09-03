@@ -5,6 +5,8 @@
 #include "socket.h"
 #include "wizchip_conf.h"
 
+#define TEST
+
 static wiz_NetInfo g_net_info =
     {
         .mac = {0x00, 0x08, 0xDC, 0x12, 0x34, 0x56}, // MAC address
